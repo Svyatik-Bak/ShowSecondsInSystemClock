@@ -62,7 +62,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "D:\\Other\\Windows Icon Pack\\icons\\ieframe\\ieframe_112.ico"
+IDI_ICON1               ICON                    "d:\\Users\\Svyatik\\Pictures\\Windows 10 Icons\\ieframe_112.ico"
 
 #endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
