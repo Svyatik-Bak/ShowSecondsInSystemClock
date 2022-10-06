@@ -7,3 +7,8 @@ This tool allows you to enable seconds in system clock
 Enable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ShowSecondsInSystemClock /t REG_dword /d 1 /f
 
 Disable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ShowSecondsInSystemClock /t REG_dword /d 0 /f
+
+# Used
+Qt: 6.3.1
+Compiler: MinGW
+[SB_registry.h](https://github.com/Svyatik-Bak/SB_registry.h)
