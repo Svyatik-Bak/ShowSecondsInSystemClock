@@ -10,5 +10,7 @@ Disable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Exp
 
 # Used
 Qt: 6.3.1
+
 Compiler: MinGW
+
 [SB_registry.h](https://github.com/Svyatik-Bak/SB_registry.h)
