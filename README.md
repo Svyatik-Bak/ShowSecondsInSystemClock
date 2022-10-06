@@ -13,4 +13,4 @@ Qt: 6.3.1
 
 Compiler: MinGW
 
-[SB_registry.h](https://github.com/Svyatik-Bak/SB_registry.h)
+[SB_registry.h (1.0)](https://github.com/Svyatik-Bak/SB_registry.h)
