@@ -12,8 +12,6 @@ Disable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Exp
 # [Download Source Code](https://github.com/Svyatik-Bak/ShowSecondsInSystemClock/archive/refs/tags/1.2.zip)
 
 # Used
-Qt: 6.3.1
-
 Compiler: MinGW
-
-[SB_registry.h (1.0)](https://github.com/Svyatik-Bak/SB_registry.h)
+```gcc main.c icon.o -o ShowSecondsInSystemClock.exe -municode```
+[SB_registry.h](https://github.com/Svyatik-Bak/SB_registry.h)
