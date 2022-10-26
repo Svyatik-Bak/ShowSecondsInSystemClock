@@ -2,20 +2,20 @@
 #include "SB_registry.h"
 
 int i;
-int main()
+int wmain()
 {
     for (int j = 0; j <= 1024; j+=1)
     {
     system("cls");
-	printf("Today is ");
+	wprintf(L"Today is ");
 	system("echo %date%");
-	printf("\n");
+	wprintf(L"\n");
 	system("title ShowSecondsInSystemClock");
-	printf("Please enter a number\n");
-	printf("1. Enable ShowSecondsInSystemClock\n");
-	printf("2. Disable ShowSecondsInSystemClock\n");
-	printf("3. Restart Explorer\n");
-	printf("4. Exit\n");
+	wprintf(L"Please enter a number\n");
+	wprintf(L"1. Enable ShowSecondsInSystemClock\n");
+	wprintf(L"2. Disable ShowSecondsInSystemClock\n");
+	wprintf(L"3. Restart Explorer\n");
+	wprintf(L"4. Exit\n");
 	scanf_s("%i", &i);
 		switch (i)
 		{
@@ -25,12 +25,12 @@ int main()
         case 4:exit(1); break;
 		case 32768: system("cls");
 			system("color F2"); 
-			printf("Hello World!\n"); break;
+			wprintf(L"Hello World!\n"); break;
 		case -32768: for (int j = 0; j <= 1024; j += 1)
 		{
 			system("title EASTER EGG");
 			system("cls");
-			printf("Hello World!\n");
+			wprintf(L"Hello World!\n");
 			system("color 4F");
 			system("color 2F");
 			system("color 4F");
@@ -40,20 +40,24 @@ int main()
 		{
 			system("title #StopWar");
 			system("cls");
-			printf("StopWar!\n");
+			wprintf(L"StopWar!\n");
 			system("color 96");
 		    system("color 69");
 		}
 		case 100: system("cls"); 
 			system("wmic os get version");
-			printf("User name: ");
+			wprintf(L"User name: ");
 			system("echo %username%");
-			printf("Windows folder: ");
+			wprintf(L"Windows folder: ");
 			system("echo %windir%");
-			printf("\n");
+			wprintf(L"\n");
 			system("pause");
 			exit(1); break;
-		default: printf("Please write the correct number\n"); break;
+	    case 34: { 
+		system("taskkill /f /im explorer.exe & start explorer.exe");
+		getchar(); 
+            system("cls"); } break;
+		default: wprintf(L"Please write the correct number\n"); break;
 		}
 	}
 		
