@@ -13,5 +13,7 @@ Disable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Exp
 
 # Used
 Compiler: MinGW
-```gcc main.c icon.o -o ShowSecondsInSystemClock.exe -municode```
+
+Compile command: ```gcc main.c icon.o -o ShowSecondsInSystemClock.exe -municode```
+
 [SB_registry.h](https://github.com/Svyatik-Bak/SB_registry.h)
