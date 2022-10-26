@@ -8,7 +8,7 @@ Enable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Expl
 
 Disable: reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v ShowSecondsInSystemClock /t REG_dword /d 0 /f
 
-# [Download x86_64 Binary](https://github.com/Svyatik-Bak/ShowSecondsInSystemClock/releases/download/1.2/ShowSecondsInSystemClock.exe)
+# [Download x86_64 Binary](https://github.com/Svyatik-Bak/ShowSecondsInSystemClock/releases/download/1.3/ShowSecondsInSystemClock.exe)
 # [Download Source Code](https://github.com/Svyatik-Bak/ShowSecondsInSystemClock/archive/refs/tags/1.2.zip)
 
 # Used
